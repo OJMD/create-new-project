@@ -1,5 +1,5 @@
 {
-  "name": "create-new-project",
+  "name": "@ojmd/npm-create-new-project",
   "version": "1.0.1",
   "description": "Simple tool for creating the directory structure of a project. (JS-HTML)",
   "main": "dist/index.js",
