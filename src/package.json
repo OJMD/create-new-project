@@ -1,8 +1,8 @@
 {
   "name": "create-new-project",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple tool for creating the directory structure of a project. (JS-HTML)",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,9 +11,13 @@
     "url": "git+https://github.com/OJMD/create-new-project.git"
   },
   "author": "OJMD",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/OJMD/create-new-project/issues"
   },
-  "homepage": "https://github.com/OJMD/create-new-project#readme"
+  "homepage": "https://github.com/OJMD/create-new-project#readme",
+  "dependencies": {
+    "fs-extra": "^10.0.0",
+    "yargs": "^17.2.1"
+  }
 }
